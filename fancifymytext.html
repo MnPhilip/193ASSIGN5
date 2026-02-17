@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fancify Shamcify</title>
+
+		<!-- link to your script file here -->
+		<script src="fancifymytext.js"></script>
+		
+		
+	</head>
+
+	<body>
+		<h1>Fancify my Text</h1>
+
+		<form>
+			<label for="inputLBL">Text:</label>
+			<fieldset id="inputFS">
+			<input id="inputTXT"; type="text" style="height:40px; width:300px";>
+			</fieldset>
+		</form>
+
+		<form>
+			<label>Fancify:</label>
+			<fieldset style="width: 250px;">
+
+			<button id="BIG" onclick="buttonEvent()" type="button">Bigger!</button><br>
+			<button id="MOO" onclick="mooEvent()" type="button">MOO</button><br>
+
+			<input onchange="FSON()" type="radio" name="options" id="fancySchmancy">
+			<label for="fancySchmancy">FancySchmancy</label>
+
+			<input onchange="BBON()" type="radio" name="options" id="boringBetty">
+			<label for="boringBetty">BoringBetty</label><br>
+			</fieldset>
+		</form>
+
+		<!-- Your UI controls go here -->
+	</body>
+</html>
